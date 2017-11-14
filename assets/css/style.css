@@ -1,0 +1,87 @@
+body{
+	background:url(http://static.wixstatic.com/media/d92e0e_3b895ea369cb4edf88dbed4218eab23e.jpg);
+	background-size:100%;
+	text-align:center;
+}
+header{
+	text-align:center;
+	color:red;
+}
+
+h1{
+	font-size:700%;]
+
+}
+
+h2{
+	font-size:300%;
+
+}
+
+h3{
+	font-size:125%;
+	padding-top:40px;
+	color:white;
+}
+
+h4{
+	font-size:225%;
+	padding-top:15px;
+	color:blue;
+}
+
+p{
+	color:white;
+	font-weight:bold;
+	font-size:150%;
+}
+
+.wins{
+	position:relative;
+	right:5px;
+	top:20px;
+	float:left;
+	margin-left:250px;
+	padding-left:275px;
+
+}
+
+.loses{
+	position:relative;
+	bottom:15px;
+	float:right;
+	padding-top:20px;
+	right:475px;
+	
+}
+
+.guesses{
+	position:relative;
+	top:20px;
+	float:right;
+	margin-right:250px;
+	padding-right:20px;
+}
+
+.wrong{
+	position:fixed;
+	left:450px;
+	float:right;
+
+}
+
+
+#blanks{
+	letter-spacing: 5px
+}
+
+#wins,#loses,#guesses-remaining,#wrong-guesses{
+	color:red;
+	
+}
+
+.mlb{
+	position:relative;
+	top:50px;
+	left: 330px;
+}
