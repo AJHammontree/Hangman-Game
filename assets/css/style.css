@@ -85,3 +85,88 @@ p{
 	top:50px;
 	left: 330px;
 }
+
+@media screen and (max-width:980px) {
+	*{
+		max-width:100%;
+	}
+
+	.wins{
+		left:110px;
+	}
+
+	.wrong{
+		left:175px;
+	}
+	
+	.loses{
+		right:625px;
+	}
+
+	.guesses{
+		left:250px;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+	*{
+		max-width:100%;
+	}
+
+	p{
+		font-size:125%;
+		padding-top:20px;
+
+	}
+
+	.wins{
+		left:0px;
+
+	}
+
+	.loses{
+		right:500px;
+		bottom:35px;
+	}
+
+	.guesses{
+		left:300px;
+	}
+
+	.wrong{
+		left:100px;
+		top:410px;
+	}
+
+	.mlb{
+		left:35px;
+	}
+}
+
+@media screen and (max-width:640px){
+	*{
+		max-width:100%;
+	}
+
+	h1{
+		font-size:600%;
+	}
+
+	h2{
+		font-size:200%;
+	}
+
+	p{
+		font-size:100%;
+	}
+
+	.wins{
+		left:-75px;
+	}
+
+	.loses{
+		right:425px;
+	}
+
+}
